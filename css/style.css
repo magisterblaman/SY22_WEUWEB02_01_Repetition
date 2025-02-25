@@ -1,0 +1,26 @@
+body {
+	background-color: aqua;
+}
+
+header {
+	margin: 50px;
+	padding: 10px;
+
+	background-color: blueviolet;
+}
+
+header > img {
+	height: 75px;
+}
+
+header ul {
+	background-color: red;
+}
+
+h1 ~ p {
+	background-color: lime;
+}
+
+h1 + p {
+	background-color: yellow;
+}
