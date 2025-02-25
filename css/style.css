@@ -24,3 +24,30 @@ h1 ~ p {
 h1 + p {
 	background-color: yellow;
 }
+
+#css-properties > div {
+	height: 1000px;
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	gap: 10px;
+	justify-content: center;
+	align-items: center;
+
+	background-color: beige;
+}
+
+#css-properties article {
+	flex-basis: 300px;
+	flex-grow: 0;
+	flex-shrink: 1;
+
+	padding: 15px;
+	
+	background-color: red;
+}
+
+#test {
+	align-self: start;
+}
